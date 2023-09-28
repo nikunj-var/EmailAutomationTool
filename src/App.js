@@ -1,11 +1,11 @@
-import "./App.scss";
+import React from "react";
+import ExcelUpload from "./ExcelUpload";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Email Automation Tool</h1>
-      </header>
+    <div>
+      <h1>Export Your Data</h1>
+      <ExcelUpload />
     </div>
   );
 }
